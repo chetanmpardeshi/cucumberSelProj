@@ -43,6 +43,8 @@ public class stepDefination extends Base {
   public void verify_selected_items_are_displayed_in_check_out_page(String name) throws Throwable {
 	  cp=new CheckOutPage(driver);
 	  	Assert.assertTrue( cp.getProductName().getText().contains(name));
+		  System.out.println("final merge test from main project 1");
+		  System.out.println("test from main project 2");
   }
 
   @Given("^validate the browser$")
