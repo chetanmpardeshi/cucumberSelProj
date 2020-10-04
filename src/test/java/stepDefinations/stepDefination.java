@@ -34,7 +34,9 @@ public class stepDefination extends Base {
   
   @When("^User searched for (.+) Vegetables$")
   public void user_searched_for_vegetables(String name) throws Throwable {
-      throw new PendingException();
+		System.out.println("branch 1");
+		System.out.println("branch 2");
+		System.out.println("branch 3");
   }
  
   @Then("^verify selected (.+) items are displayed in Check out page$")
