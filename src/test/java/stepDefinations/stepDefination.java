@@ -44,7 +44,8 @@ public class stepDefination extends Base {
 	  cp=new CheckOutPage(driver);
 	  	Assert.assertTrue( cp.getProductName().getText().contains(name));
 		  System.out.println("final merge test from main project 1");
-		  System.out.println("test from main project 2");
+		  System.out.println("final merge test from main project 2");
+		  System.out.println("final merge test from main project 3");
   }
 
   @Given("^validate the browser$")
